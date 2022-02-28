@@ -1,0 +1,19 @@
+.education {
+  background-color: #dbe2ef;
+  font-family: "Montserrat", sans-serif;
+}
+.education h1 {
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.education h3,
+h5 {
+  color: #000;
+  font-weight: bolder;
+}
+
+.education-date {
+  color: #000;
+  font-weight: bolder;
+}

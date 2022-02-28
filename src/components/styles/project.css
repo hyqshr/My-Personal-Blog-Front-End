@@ -1,0 +1,13 @@
+.project {
+  background-color: #3f72af;
+  font-family: "Montserrat", sans-serif;
+}
+
+.project h1 {
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.project-button {
+  margin: 1% 3% 0% 0%;
+}

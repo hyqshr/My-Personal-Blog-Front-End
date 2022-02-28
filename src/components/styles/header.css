@@ -1,0 +1,46 @@
+header {
+  font-family: "Montserrat", sans-serif;
+}
+
+header h1 {
+  color: #000;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+header a {
+  color: #000 !important;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.navbar {
+  background-color: #c4d3f0;
+  margin: auto -16px;
+  padding: 5px auto;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  padding-bottom: 0 0 4.5rem;
+  transition: 1s;
+}
+
+.navbar a:hover,
+:focus {
+  color: burlywood !important;
+}
+
+.colorChange {
+  background-color: #112d4e;
+}
+
+.colorChange h1 {
+  color: burlywood;
+}
+
+.colorChange a {
+  color: burlywood !important;
+  text-decoration: none;
+}
+
+.colorChange a:hover {
+  color: yellow !important;
+}

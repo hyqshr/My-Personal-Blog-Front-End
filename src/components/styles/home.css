@@ -1,0 +1,46 @@
+.home {
+  background-color: #dbe2ef;
+  background-image: url(https://raw.githubusercontent.com/hyqshr/MD_picgo/main/image-20220226232250006.png);
+  background-size: cover;
+  text-align: left;
+  padding: 5% 5%;
+}
+
+.home h1,
+h2,
+h3,
+p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+.home-col {
+  padding: 15% 5%;
+}
+.button-home {
+  margin: 5% 3% 5% 0%;
+}
+
+.button-home a:hover,
+:focus {
+  color: #9acd32 !important;
+}
+
+.image-home {
+  width: 100%;
+  transform: rotate(0deg);
+  position: absolute;
+}
+
+@media (max-width: 1028px) {
+  .home {
+    text-align: center;
+  }
+
+  .image-home {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+.home {
+}

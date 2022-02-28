@@ -1,0 +1,37 @@
+.contact {
+  background-color: #dbe2ef;
+  color: #000;
+  text-align: center;
+}
+
+.contact h1,
+h2,
+h3,
+p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.contact h3 {
+  color: #000;
+}
+
+.contact-row {
+  margin: 5% 10%;
+}
+.contact-img {
+  width: 400px;
+  height: 1000px;
+}
+
+@media (max-width: 1028px) {
+  .contact-carouse {
+    width: auto;
+    height: auto;
+  }
+}
+.carousel {
+  /* width:900px; */
+  height:1000px;
+  margin: auto;
+}
