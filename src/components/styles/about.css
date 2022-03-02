@@ -1,6 +1,7 @@
 .about {
-  background-color: #3f72af;
-  color: #f9f7f7;
+  /* background-color: #c2e9fb ; */
+  background: linear-gradient(#004080 , #dbe2ef);
+  color: #000000;
 }
 
 .about h1,

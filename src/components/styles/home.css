@@ -1,6 +1,8 @@
 .home {
   background-color: #dbe2ef;
-  background-image: url(https://raw.githubusercontent.com/hyqshr/MD_picgo/main/image-20220226232250006.png);
+  /* background-image: url(https://raw.githubusercontent.com/hyqshr/MD_picgo/main/image-20220226232250006.png);*/
+  background-image: url(../images/home/cancun_eas.jpg);
+
   background-size: cover;
   text-align: left;
   padding: 5% 5%;

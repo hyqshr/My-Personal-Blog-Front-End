@@ -7,7 +7,7 @@ import aboutImage from "./images/about/myself.jpg";
 function About() {
   return (
     <div className="section about" id="about">
-      <h1>About</h1>
+      <h1 style={{color:"#FFFFFF"}}>About</h1>
       <Row className="about-row">
         <Col lg={4} className="about-col text-center">
           <ScrollAnimation

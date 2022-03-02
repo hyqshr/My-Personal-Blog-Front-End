@@ -1,29 +1,50 @@
 import React from "react";
-import Trans from "./Trans";
-import Header from "./Header";
-import Home from "./Home";
-import About from "./About";
-import Education from "./Education";
-import Experience from "./Experience";
-import Skill from "./Skill";
-import Project from "./Project";
-import Contact from "./Contact";
-import Footer from "./Footer";
+import { HashRouter as Router,Route,Switch } from 'react-router-dom'
 import "bootstrap/dist/css/bootstrap.min.css";
+import MainScreen from './screens/MainScreen'
+import BlogScreen from './screens/BlogScreen'
+import Header from "./Header";
+import Footer from "./Footer";
+import Particles from 'react-particles-js';
+
+
 
 function App() {
   return (
-    <div>
-      <Trans />
-      <Header />
-      <Home />
-      <About />
-      <Education />
-      <Experience />
-      <Skill />
-      <Project />
-      <Contact />
-      <Footer />
+    <div>     
+        <Particles
+          style={{ position: "absolute" }}
+          height="95%"
+          width="95%"
+          params={{
+            particles: {
+              color: {
+                value: "#99ccff"
+              },
+              line_linked: {
+                color: {
+                  value: "#ffffff"
+                }
+              },
+              number: {
+                value: 200
+              },
+              size: {
+                value: 4
+              }
+            }
+          }}
+        />
+
+        <Router>
+          <Header />
+          <Switch>
+            {/* <Route path="/blog" component = {BlogScreen}/> */}
+
+            <Route  path="/" component = {MainScreen} />
+          </Switch>
+          <Footer />
+        </Router> 
     </div>
   );
 }

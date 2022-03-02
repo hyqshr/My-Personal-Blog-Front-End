@@ -4,7 +4,6 @@ import "./styles/home.css";
 import useTypewriter from "react-typewriter-hook";
 import ScrollAnimation from "react-animate-on-scroll";
 import PictureAsPdfIcon from "@material-ui/icons/PictureAsPdf";
-import homeImage from "./images/home/home.png";
 import pdf1 from "./file/Resume.pdf";
 
 //Update wordsDisplay data
@@ -38,23 +37,17 @@ function Home() {
     <section 
       className="section home" 
       id="home" 
-      
-      // style={{ 
-
-      // }}
-        
     >
-
       <Row>
         <Col lg={10} className="home-col" style={{display: 'flex',  justifyContent:'center', alignItems:'center'}}>
           <ScrollAnimation animateIn="animate__backInLeft">
-            <h1 className="py-3">嗨呀~</h1>
-            <h2>Hi!!! my name is</h2>
+            <h1 className="py-3">嗨呀~ 欢迎来到黄逸秋的主页</h1>
+            <h4>Hi!!! my name is</h4>
             <h1 className="py-3">Yiqiu Huang</h1>
             <p>
-              <span>{name}</span>
+              <h3 style={{color:"#e5f2ff"}}>{name}</h3>
             </p>
-            <p>
+            <p  style={{color:"#e5f2ff"}}>
               <span img="Pick Me" /> 👇👇👇 Pick me! 👇👇👇
             </p>
             <Button

@@ -4,7 +4,6 @@ import {
   Row,
   Col,
   Carousel,
-  Badge,
   ProgressBar
 } from "react-bootstrap";
 import "./styles/contact.css";

@@ -35,6 +35,9 @@ function Header() {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto"></Nav>
             <Nav>
+              <Nav.Link href="#blog" onClick={handleClick}>
+                Blog
+              </Nav.Link>
               <Nav.Link href="#home" onClick={handleClick}>
                 Home
               </Nav.Link>
