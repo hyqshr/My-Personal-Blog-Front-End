@@ -19,7 +19,7 @@ function App() {
             width: '100vw',
             height: '100vh',
           }}>
-          <Snowfall color="#dee4fd" snowflakeCount={180}  />
+          <Snowfall color="#dee4fd" snowflakeCount={230}  />
         </div>
         
         <Router>
