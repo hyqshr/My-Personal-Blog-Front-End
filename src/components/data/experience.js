@@ -1,5 +1,10 @@
 const experience = [
   {
+    date: "06/2022 - 12/2022",
+    event: "Software Engineer Intern at Instawork",
+    detail: "Django(Python) / Hyperview / AWS / MySQL /Docker"
+  },
+  {
     date: "03/2021 - 07/2021",
     event: "Machine Learning Intern at Ping An Tech",
     detail: "Django(Python) / Pytorch / MongoDB"

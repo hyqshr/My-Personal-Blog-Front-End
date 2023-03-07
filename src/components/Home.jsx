@@ -4,7 +4,7 @@ import "./styles/home.css";
 import useTypewriter from "react-typewriter-hook";
 import ScrollAnimation from "react-animate-on-scroll";
 import PictureAsPdfIcon from "@material-ui/icons/PictureAsPdf";
-import pdf1 from "./file/Resume.pdf";
+import pdf1 from "./images/file/Resume.pdf";
 
 //Update wordsDisplay data
 const wordsDisplay = [
@@ -47,9 +47,9 @@ function Home() {
             <p>
               <h3 style={{color:"#e5f2ff"}}>{name}</h3>
             </p>
-            <p  style={{color:"#e5f2ff"}}>
+            {/* <p  style={{color:"#e5f2ff"}}>
               <span img="Pick Me" /> 👇👇👇 Pick me! 👇👇👇
-            </p>
+            </p> */}
             <Button
               className="button-home"
               variant="light"
@@ -61,12 +61,9 @@ function Home() {
               <PictureAsPdfIcon fontSize="large" />
               Resume
             </Button>
-            <p>Photo by me at Cancun in 2021</p>
+            <p>Photo at Cancun in 2021</p>
           </ScrollAnimation>
         </Col>
-        {/* <Col lg={6}>
-          <img className="image-home" src={homeImage} alt="homeImage" />
-        </Col> */}
       </Row>
     </section>
   );

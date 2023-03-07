@@ -11,9 +11,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function MainPage() {
   return (
     <div>
-
-
-
         <Home />
         <About />
         <Education />

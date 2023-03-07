@@ -2,7 +2,6 @@ import React from "react";
 import { HashRouter as Router,Route,Switch } from 'react-router-dom'
 import "bootstrap/dist/css/bootstrap.min.css";
 import MainScreen from './screens/MainScreen'
-import BlogScreen from './screens/BlogScreen'
 import Header from "./Header";
 import Footer from "./Footer";
 import Snowfall from 'react-snowfall'
@@ -25,7 +24,6 @@ function App() {
         <Router>
           <Header />
           <Switch>
-            {/* <Route path="/blog" component = {BlogScreen}/> */}
             <Route  path="/" component = {MainScreen} />
           </Switch>
           <Footer />
