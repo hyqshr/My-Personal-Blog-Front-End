@@ -2,3 +2,4 @@ myvenv/
 node_modules/
 # Local Netlify folder
 .netlify
+.DS_store

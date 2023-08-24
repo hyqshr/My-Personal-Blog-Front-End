@@ -1,4 +1,11 @@
-# My Personal Blog
+# React Personal Blog - React个人博客
+
+My personal **react** blog project. Hosted on www.huangyiqiu.com. Featured with rich scroll animation
+
+React 个人博客，有丰富的动画展示。
+
+Demo:
+![GIF](demo.gif)
 
 ## Start
 
@@ -6,21 +13,6 @@
 npm i && npm start
 ```
 
-And then go to your port at 3000
+Then visit: http://localhost:3000/
 
-**My responsive personal blog with animation **
-
-React + React-Bootstrap + react-animate-on-scroll
-
-**I am working to expand its functionality**
-
-## to-do
-
-- I will shift the backend to springboot later
-
-- Add latex support
-- Comment section
-
-## finished
-
-- particle effect
+Leave a star if you like!
